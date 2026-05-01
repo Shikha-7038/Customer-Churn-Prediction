@@ -56,9 +56,9 @@ Customer-Churn-Prediction/
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
+
 2. Set Up Virtual Environment
 bash
 # Windows
@@ -68,9 +68,11 @@ venv\Scripts\activate
 # Mac/Linux
 python -m venv venv
 source venv/bin/activate
+
 3. Install Dependencies
 bash
 pip install -r requirements.txt
+
 4. Run Complete Pipeline
 bash
 python main.py
@@ -84,7 +86,7 @@ Generate SHAP explanations
 Save models and predictions
 
 5. Start API Server
-bash
+
 python -m uvicorn serving.app:app --reload
 Or run after main.py completes and select 'y' to start the server.
 
