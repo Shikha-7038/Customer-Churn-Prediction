@@ -31,6 +31,7 @@ This project builds a complete churn prediction pipeline that:
 | Model Management | Joblib |
 
 ## 📁 Project Structure
+```
 Customer-Churn-Prediction/
 ├── data/ # Dataset storage
 ├── notebooks/ # Jupyter notebooks
@@ -49,7 +50,7 @@ Customer-Churn-Prediction/
 ├── main.py # Main execution script
 ├── requirements.txt # Dependencies
 └── Dockerfile # Container configuration
-
+```
 
 ## 🚀 Quick Start
 
