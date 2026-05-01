@@ -50,7 +50,6 @@ Customer-Churn-Prediction/
 ├── main.py # Main execution script
 ├── requirements.txt # Dependencies
 └── Dockerfile # Container configuration
-```
 
 📊 Results
 Model Performance
@@ -72,6 +71,7 @@ New Customers: First 3 months have highest churn rate
 Payment Problems: Late payments strongly indicate churn
 
 Actionable Segments
+
 Risk Level	Criteria	Recommended Action
 High Risk	>50% churn probability	Immediate retention offer + support escalation
 Medium Risk	25-50% churn probability	Targeted campaign + satisfaction survey
